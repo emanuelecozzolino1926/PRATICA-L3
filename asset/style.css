@@ -7,7 +7,6 @@
 
 .header-cont {
     width: 100%;
-    text-align: center;
     padding: 10px;
 }
 
@@ -17,11 +16,14 @@
     background-color: #FDFBF1;
     color: #107777;
     padding: 13px;
-    text-align: center;
 }
 
 .logo {
     height: 60px;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .d-flex{
@@ -30,16 +32,36 @@
 }
 
 .article-cont{
-    background-color: aqua;
+    padding: 30px;
 }
 
 .col-50{
     width: 50%;
-    background-color: yellow;
-    height: 500px;
-    border: 1px solid;
 }
 
+.title-art{
+    font-size: 41px;
+    font-family: "Prata", serif;
+    font-style: normal;
+}
+
+.p-font{
+    font-size: 17px;
+    font-family: "Prata", serif;
+    font-style: normal;
+}
+
+.p-15{
+    padding: 15px;
+}
+.image-size{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.img-author{
+    color: grey;
+}
 .footer-cont{
     width: 100%;
     border: 1px solid;

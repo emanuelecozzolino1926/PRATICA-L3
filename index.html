@@ -7,10 +7,26 @@
     <meta name="description" content="Primi passi css, epicode." />
     <!-- Inclusione css esterno -->
     <link rel="stylesheet" href="./asset/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- H1 FONT-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- P FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&family=Prata&display=swap"
+      rel="stylesheet"
+    />
     <title>Pratica - L3</title>
   </head>
   <body>
-    <header>
+    <header class="text-center">
       <!-- STRUTTURA HEADER LOGO-->
       <div class="header-cont">
         <img src="./asset/logo.png" alt="Logo" class="logo" />
@@ -24,8 +40,29 @@
     <main>
       <!-- STRUTTURA ARTICOLO-->
       <article>
+        <!-- CONTENITORE ARTICOLO CON FELX-->
         <div class="d-flex article-cont">
-          <div class="col-50"></div>
+          <!-- COLONNA ARTICOLO 50%-->
+          <div class="col-50">
+            <h1 class="text-center p-10 title-art">
+              Focaccia with Caramelized Onions, Cranberries, and Brie
+            </h1>
+            <p class="p-15 p-font">
+              Wow your taste buds with this festive focaccia appetizer topped
+              with sweet caramelized onions, tart cranberries, and creamy brie.
+              It will become your new favorite holiday starter!
+            </p>
+            <div class="image-cont">
+              <img
+                src="./asset/focaccia.png"
+                alt="foto focaccia"
+                class="image-size"
+              />
+            </div>
+            <div class="img-author text-center p-15">
+              <span> Image: Sally Vegas</span>
+            </div>
+          </div>
         </div>
       </article>
     </main>
