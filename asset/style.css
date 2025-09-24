@@ -45,8 +45,30 @@
     font-style: normal;
 }
 
+.sub-title{
+    font-size: 20px;
+    font-family: "Prata", serif;
+    font-style: normal;
+    color: #6C6C6C;
+}
+
+.ingredients-title{
+    font-size: 17px;
+    color: #6C6C6C;
+}
+
+.ingredients-list{
+    margin-top: 30px;
+}
+
 .p-font{
     font-size: 17px;
+    font-family: "Prata", serif;
+    font-style: normal;
+}
+
+.li-font{
+    font-size: 15px;
     font-family: "Prata", serif;
     font-style: normal;
 }
@@ -54,6 +76,20 @@
 .p-15{
     padding: 15px;
 }
+
+.p-l15{
+    padding-left: 30px;
+}
+
+.m-t-b{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.m-t{
+    margin-top: 15px;
+}
+
 .image-size{
     width: 100%;
     border-radius: 2%;
@@ -62,6 +98,21 @@
 .img-author{
     color: grey;
 }
+
+.suggestion{
+    border-left: 3px solid #FDF2D0;
+    padding-left: 15px;
+}
+
+.feat-color{
+    color: #D79A7D;
+}
+
+.link-color{
+    color: #80B6B6;
+}
+
+
 .footer-cont{
     width: 100%;
     border: 1px solid;
